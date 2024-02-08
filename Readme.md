@@ -28,12 +28,14 @@ We resized the image to 180 * 180 and divided into training and validation datas
 
 ### Images after resizing(visulization):
 
-![Alt Text](download.png)
+![download](https://github.com/Premparkash/Melonama_CNN/assets/9427473/57f937b8-06d6-48ca-87b3-5366ef8fc514)
+
 
 ### Solution is approached through 3 methods to improve it which is discussed in the document:
 
 #### Output using first baseline method:
-![Alt Text](download%20(1).png)
+![download (1)](https://github.com/Premparkash/Melonama_CNN/assets/9427473/62a3bfbf-dd8c-4480-b5c5-5c1b0ed29dca)
+
 
 
 #### Findings:
@@ -42,14 +44,16 @@ We can use dropout and data augumentation strategy to test if it improves the ac
 Although training accuracy is 87% but there is alot of chances of wrongly classifying an image due to overfitting.
 
 #### We used ImageDataGenerator and got the output:
-![Alt Text](download%20(2).png)
+![download (2)](https://github.com/Premparkash/Melonama_CNN/assets/9427473/426a16ac-b273-4232-9fda-8c842f2d9b24)
+
 
 #### Findings:
 ImageDataGenerator strategy helped us improve the problem of overfitting.
 But accuracy is decresed drastically which can cause misclassification.
 
 #### We used python package known as Augmentor to solve the problem of class imbalance and got the output:
-!![Alt Text](download%20(3).png)
+![download (3)](https://github.com/Premparkash/Melonama_CNN/assets/9427473/edf23ce6-5a66-41f0-b2dc-d4c865ce87a8)
+
 
 #### Findings:
 We couldn't completely get rid of overfitting but for sure Class rebalance helped us alot in acchieving better accuracy.
